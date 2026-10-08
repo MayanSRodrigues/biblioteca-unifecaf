@@ -185,6 +185,7 @@ a:focus-visible {
 /* O segundo banner (logo depois da seção "Sobre") é mais baixo */
 .sobre + .banner img {
   height: clamp(200px, 28vw, 340px);
+  object-position: center bottom;
 }
 
 /* Camada escura sobre a foto do primeiro banner, para o texto ter contraste */
